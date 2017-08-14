@@ -1,0 +1,11 @@
+CMM took 132.0ms (Mean:136.1653550888889)
+EntropyCollection took 11.0ms (Mean:14.145304644444446)
+F1 took 11.0ms (Mean:13.500292599999998)
+OutlierPerformance took 0.0ms (Mean:0.0)
+RegressionAccuracy took 0.0ms (Mean:0.0)
+SSQ took 4.0ms (Mean:5.093594955555555)
+SilhouetteCoefficient took 11.0ms (Mean:17.731418622222222)
+
+FileStream -f /home/kchoppella/book/Chapter05/expt/elecNormNew.arff -K
+denstream.WithDBSCAN -h 500 -M
+denstream.WithDBSCAN -M

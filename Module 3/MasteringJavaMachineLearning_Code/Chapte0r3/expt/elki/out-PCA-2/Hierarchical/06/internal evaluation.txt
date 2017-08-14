@@ -1,0 +1,3 @@
+# Distance-based Evaluation
+Silhouette +-� NaN
+Davies Bouldin Index 0.0

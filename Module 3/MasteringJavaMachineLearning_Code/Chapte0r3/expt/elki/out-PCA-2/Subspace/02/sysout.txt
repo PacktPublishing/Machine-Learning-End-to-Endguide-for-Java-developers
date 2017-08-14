@@ -1,0 +1,30 @@
+de.lmu.ifi.dbs.elki.datasource.FileBasedDatabaseConnection.parse: 291 ms
+de.lmu.ifi.dbs.elki.datasource.FileBasedDatabaseConnection.filter: 0 ms
+de.lmu.ifi.dbs.elki.algorithm.clustering.subspace.DiSH.runtime: 602918 ms
+de.lmu.ifi.dbs.elki.evaluation.clustering.internal.EvaluateSilhouette.silhouette.noise-handling: TREAT_NOISE_AS_SINGLETONS
+de.lmu.ifi.dbs.elki.evaluation.clustering.internal.EvaluateSilhouette.silhouette.mean: NaN
+de.lmu.ifi.dbs.elki.evaluation.clustering.internal.EvaluateSilhouette.silhouette.stddev: NaN
+de.lmu.ifi.dbs.elki.evaluation.clustering.internal.EvaluateDaviesBouldin.db-index.noise-handling: TREAT_NOISE_AS_SINGLETONS
+de.lmu.ifi.dbs.elki.evaluation.clustering.internal.EvaluateDaviesBouldin.db-index: 1.2391746514857247
+Task failed
+java.lang.IllegalStateException: Input/Output error while writing result.
+	at de.lmu.ifi.dbs.elki.result.ResultWriter.processNewResult(ResultWriter.java:126)
+	at de.lmu.ifi.dbs.elki.workflow.OutputStep.runResultHandlers(OutputStep.java:73)
+	at de.lmu.ifi.dbs.elki.KDDTask.run(KDDTask.java:121)
+	at de.lmu.ifi.dbs.elki.application.KDDCLIApplication.run(KDDCLIApplication.java:61)
+	at [...]
+Caused by: java.io.FileNotFoundException: /home/kchoppella/book/Chapter03/elki/out-PCA-2/Subspace/02/cluster_000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.txt (File name too long)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at de.lmu.ifi.dbs.elki.result.textwriter.MultipleFilesOutput.newStream(MultipleFilesOutput.java:107)
+	at de.lmu.ifi.dbs.elki.result.textwriter.MultipleFilesOutput.openStream(MultipleFilesOutput.java:125)
+	at de.lmu.ifi.dbs.elki.result.textwriter.TextWriter.writeClusterResult(TextWriter.java:293)
+	at de.lmu.ifi.dbs.elki.result.textwriter.TextWriter.output(TextWriter.java:230)
+	at de.lmu.ifi.dbs.elki.result.ResultWriter.processNewResult(ResultWriter.java:124)
+	at de.lmu.ifi.dbs.elki.workflow.OutputStep.runResultHandlers(OutputStep.java:73)
+	at de.lmu.ifi.dbs.elki.KDDTask.run(KDDTask.java:121)
+	at de.lmu.ifi.dbs.elki.application.KDDCLIApplication.run(KDDCLIApplication.java:61)
+	at [...]
+

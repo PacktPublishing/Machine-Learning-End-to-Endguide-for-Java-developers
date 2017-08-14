@@ -1,0 +1,4 @@
+# Distance-based Evaluation
+Mean distance 3051357.207014249
+Sum of Squares 1.8308143242085495E10
+RMSD 1746.813443678016

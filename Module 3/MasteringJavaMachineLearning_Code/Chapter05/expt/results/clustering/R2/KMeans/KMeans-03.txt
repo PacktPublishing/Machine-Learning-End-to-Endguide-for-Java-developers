@@ -1,0 +1,13 @@
+CMM took 112.0ms (Mean:120.11751053333333)
+EntropyCollection took 0.0ms (Mean:0.6345615777777778)
+F1 took 0.0ms (Mean:0.7491914888888889)
+General took 0.0ms (Mean:0.5681076444444445)
+OutlierPerformance took 0.0ms (Mean:0.0)
+RegressionAccuracy took 0.0ms (Mean:0.0)
+Separation took 0.0ms (Mean:0.08613344444444444)
+SilhouetteCoefficient took 0.0ms (Mean:1.1356926666666667)
+StatisticalCollection took 0.0ms (Mean:0.6038047111111111)
+
+FileStream -f /home/kchoppella/book/Chapter05/expt/elecNormNew.arff -K
+clustream.WithKmeans -k 8 -M
+clustream.WithKmeans

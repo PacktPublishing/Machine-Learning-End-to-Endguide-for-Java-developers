@@ -1,0 +1,32 @@
+# Settings:
+# de.lmu.ifi.dbs.elki.workflow.InputStep
+# -db StaticArrayDatabase
+# 
+# de.lmu.ifi.dbs.elki.database.StaticArrayDatabase
+# -dbc FileBasedDatabaseConnection
+# 
+# de.lmu.ifi.dbs.elki.datasource.FileBasedDatabaseConnection
+# -dbc.in /home/kchoppella/book/Chapter03/data/MNIST-Class 1 and Undersampled7.arff
+# -dbc.parser ArffParser
+# 
+# de.lmu.ifi.dbs.elki.datasource.parser.ArffParser
+# -arff.externalid (External-?ID)
+# -arff.classlabel (Class|Class-?Label)
+# 
+# de.lmu.ifi.dbs.elki.datasource.FileBasedDatabaseConnection
+# -dbc.filter [unset]
+# 
+# de.lmu.ifi.dbs.elki.database.StaticArrayDatabase
+# -db.index [unset]
+# 
+# de.lmu.ifi.dbs.elki.workflow.AlgorithmStep
+# -time false
+# -algorithm outlier.distance.DBOutlierDetection
+# 
+# de.lmu.ifi.dbs.elki.algorithm.outlier.distance.DBOutlierDetection
+# -algorithm.distancefunction minkowski.EuclideanDistanceFunction
+# -dbod.d 5.0
+# -dbod.p 0.05
+# 
+# de.lmu.ifi.dbs.elki.workflow.EvaluationStep
+# -evaluator AutomaticEvaluation

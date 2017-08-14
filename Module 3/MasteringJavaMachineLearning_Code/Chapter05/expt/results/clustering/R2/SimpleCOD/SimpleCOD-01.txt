@@ -1,0 +1,20 @@
+CMM took 136.0ms (Mean:148.12659042222222)
+EntropyCollection took 26.0ms (Mean:28.317370311111112)
+F1 took 26.0ms (Mean:30.265499666666663)
+OutlierPerformance took 0.0ms (Mean:0.0)
+RegressionAccuracy took 0.0ms (Mean:0.0)
+SSQ took 21.0ms (Mean:22.858065955555553)
+SilhouetteCoefficient took 686.0ms (Mean:719.7866259777778)
+
+FileStream -f /home/kchoppella/book/Chapter05/expt/elecNormNew.arff -K
+outliers.SimpleCOD.SimpleCOD -w 5000
+outliers.SimpleCOD.SimpleCOD
+
+Help:
+-r radius (default: 0.1)
+Search radius.
+-t k (default: 50)
+Parameter k.
+-w windowSize (default: 1000)
+Size of the window.
+

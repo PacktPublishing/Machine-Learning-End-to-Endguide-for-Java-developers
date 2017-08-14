@@ -1,0 +1,22 @@
+CMM took 122.0ms (Mean:117.66751351111111)
+EntropyCollection took 0.0ms (Mean:0.2976707333333333)
+F1 took 0.0ms (Mean:0.27357824444444445)
+General took 0.0ms (Mean:0.23595406666666668)
+OutlierPerformance took 0.0ms (Mean:0.0)
+RegressionAccuracy took 0.0ms (Mean:0.0)
+SSQ took 0.0ms (Mean:0.07454142222222222)
+SilhouetteCoefficient took 0.0ms (Mean:1.0151089777777778)
+
+FileStream -f /home/kchoppella/book/Chapter05/expt/elecNormNew.arff -K
+clustream.Clustream -h 5000
+clustream.Clustream
+
+-h horizon (default: 1000)
+Rang of the window.
+-k maxNumKernels (default: 100)
+Maximum number of micro kernels to use.
+-t kernelRadiFactor (default: 2)
+Multiplier for the kernel radius
+-M evaluateMicroClustering
+Evaluate the underlying microclustering instead of the macro clustering
+

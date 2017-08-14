@@ -1,0 +1,11 @@
+CMM took 140.0ms (Mean:152.0841129111111)
+EntropyCollection took 27.0ms (Mean:29.587124666666664)
+F1 took 26.0ms (Mean:29.163231)
+OutlierPerformance took 0.0ms (Mean:0.0)
+RegressionAccuracy took 0.0ms (Mean:0.0)
+SSQ took 20.0ms (Mean:24.672694222222223)
+SilhouetteCoefficient took 692.0ms (Mean:694.7749666222222)
+
+FileStream -f /home/kchoppella/book/Chapter05/expt/elecNormNew.arff -K
+outliers.Angiulli.ApproxSTORM -a -w 5000
+outliers.Angiulli.ApproxSTORM -a

@@ -1,0 +1,5 @@
+# ROCAUC: 0.5
+# False Positive Rate True Positive Rate
+0.0 0.0
+1.0 1.0
+1.0 1.0

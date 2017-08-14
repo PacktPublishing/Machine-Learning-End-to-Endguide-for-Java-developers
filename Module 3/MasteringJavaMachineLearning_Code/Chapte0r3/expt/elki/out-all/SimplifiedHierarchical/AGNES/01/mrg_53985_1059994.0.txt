@@ -1,0 +1,6 @@
+# Cluster: mrg_53985_1059994.0
+# Cluster name: mrg_53985_1059994.0
+# Cluster noise flag: false
+# Cluster size: 0
+# Parents: mrg_50666_1280062.0
+# Children: obj_50711 obj_50666

@@ -1,0 +1,12 @@
+CMM took 129.0ms (Mean:135.74654266666667)
+EntropyCollection took 12.0ms (Mean:12.260879711111112)
+F1 took 11.0ms (Mean:11.875756044444445)
+General took 11.0ms (Mean:12.309132622222222)
+OutlierPerformance took 0.0ms (Mean:0.0)
+RegressionAccuracy took 0.0ms (Mean:0.0)
+SSQ took 3.0ms (Mean:3.6156059111111114)
+SilhouetteCoefficient took 15.0ms (Mean:16.531425088888888)
+
+FileStream -f /home/kchoppella/book/Chapter05/expt/elecNormNew.arff -K
+clustream.Clustream -h 5000 -M
+clustream.Clustream -M

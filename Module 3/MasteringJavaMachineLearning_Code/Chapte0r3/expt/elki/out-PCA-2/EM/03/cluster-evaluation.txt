@@ -1,0 +1,25 @@
+# Pair counting measures
+Jaccard 0.10028938888888889
+F1-Measure 0.1822963847541321
+Precision 0.10028938888888889
+Recall 1.0
+Rand 0.10028938888888889
+ARI 0.0
+FowlkesMallows 0.316684999469329
+# Entropy based measures
+NMI Joint 0.0
+NMI Sqrt 0.0
+# BCubed-based measures
+F1-Measure 0.18229638475413212
+Recall 0.1002893888888889
+Precision 1.0
+# Set-Matching-based measures
+F1-Measure 0.20224719101123595
+Purity 1.0000000000000002
+Inverse Purity 0.1125
+# Editing-distance measures
+F1-Measure 0.19951665414475334
+Precision 0.9983333333333333
+Recall 0.11083333333333334
+# Gini measures
+Mean +-0.4499 0.5501446944444444

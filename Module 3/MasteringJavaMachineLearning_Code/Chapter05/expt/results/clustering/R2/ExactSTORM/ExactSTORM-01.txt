@@ -1,0 +1,24 @@
+CMM took 160.0ms (Mean:148.03498)
+EntropyCollection took 27.0ms (Mean:27.571929044444445)
+F1 took 28.0ms (Mean:27.276449444444445)
+OutlierPerformance took 0.0ms (Mean:0.0)
+RegressionAccuracy took 0.0ms (Mean:0.0)
+SSQ took 22.0ms (Mean:23.188297911111114)
+SilhouetteCoefficient took 910.0ms (Mean:673.0610428666666)
+
+FileStream -f /home/kchoppella/book/Chapter05/expt/elecNormNew.arff -K
+outliers.Angiulli.ExactSTORM -a -w 5000
+outliers.Angiulli.ExactSTORM -a
+
+Help
+-r radius (default: 0.1)
+Search radius.
+-t k (default: 50)
+Parameter k.
+-q queryFreq (default: 1)
+Query frequency.
+-a waitWinFull
+Output outliers when windows is full.
+-w windowSize (default: 1000)
+Size of the window.
+

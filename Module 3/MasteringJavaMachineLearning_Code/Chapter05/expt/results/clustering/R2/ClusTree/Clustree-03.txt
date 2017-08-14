@@ -1,0 +1,21 @@
+CMM took 122.0ms (Mean:146.788567)
+EntropyCollection took 5.0ms (Mean:24.920685044444443)
+F1 took 5.0ms (Mean:25.421159666666668)
+General took 6.0ms (Mean:25.22446715555556)
+OutlierPerformance took 0.0ms (Mean:0.0)
+RegressionAccuracy took 0.0ms (Mean:0.0)
+SSQ took 1.0ms (Mean:6.309198155555556)
+SilhouetteCoefficient took 8.0ms (Mean:52.32107933333334)
+
+FileStream -f /home/kchoppella/book/Chapter05/expt/elecNormNew.arff -K
+clustree.ClusTree -h 5000 -M
+clustree.ClusTree -M
+
+Help:
+-h horizon (default: 1000)
+Range of the window.
+-H maxHeight (default: 8)
+The maximal height of the tree
+-M evaluateMicroClustering
+Evaluate the underlying microclustering instead of the macro clustering
+

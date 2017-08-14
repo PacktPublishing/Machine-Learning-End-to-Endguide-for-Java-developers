@@ -1,0 +1,32 @@
+CMM took 134.0ms (Mean:145.06859593333334)
+EntropyCollection took 10.0ms (Mean:13.407273155555556)
+F1 took 10.0ms (Mean:13.412366333333333)
+OutlierPerformance took 0.0ms (Mean:0.0)
+RegressionAccuracy took 0.0ms (Mean:0.0)
+SSQ took 4.0ms (Mean:5.124472777777777)
+SilhouetteCoefficient took 11.0ms (Mean:15.728503533333333)
+
+FileStream -f /home/kchoppella/book/Chapter05/expt/elecNormNew.arff -K
+denstream.WithDBSCAN -h 5000 -M
+denstream.WithDBSCAN -M
+
+DBSCAN Help:
+-h horizon (default: 1000)
+Range of the window.
+-e epsilon (default: 0.02)
+Defines the epsilon neighbourhood
+-b beta (default: 0.2)
+
+-m mu (default: 1.0)
+
+-i initPoints (default: 1000)
+Number of points to use for initialization.
+-o offline (default: 2.0)
+offline multiplier for epsilion.
+-l lambda (default: 0.25)
+
+-s processingSpeed (default: 100)
+Number of incoming points per time unit.
+-M evaluateMicroClustering
+Evaluate the underlying microclustering instead of the macro clustering
+

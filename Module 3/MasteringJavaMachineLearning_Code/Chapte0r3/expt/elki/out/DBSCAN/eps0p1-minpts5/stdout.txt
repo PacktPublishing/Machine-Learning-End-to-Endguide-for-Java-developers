@@ -1,0 +1,83 @@
+de.lmu.ifi.dbs.elki.datasource.FileBasedDatabaseConnection.parse: 212 ms
+de.lmu.ifi.dbs.elki.datasource.FileBasedDatabaseConnection.filter: 0 ms
+de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort.initialization: de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.initialization.RandomlyChosenInitialMeans@d8f974
+de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort.variance-sum: 2.7134934436E10
+de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort.distance-computations: 60018
+de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort.variance-sum: 1.6461104001916231E10
+de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort.distance-computations: 120063
+de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort.variance-sum: 1.5968936295313852E10
+de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort.distance-computations: 180108
+de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort.variance-sum: 1.5696841596995205E10
+de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort.distance-computations: 240110
+de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort.variance-sum: 1.552475794708179E10
+de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort.distance-computations: 299964
+de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort.variance-sum: 1.5452287419004364E10
+de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort.distance-computations: 359709
+de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort.variance-sum: 1.5414718600361599E10
+de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort.distance-computations: 419400
+de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort.variance-sum: 1.5385352549556473E10
+de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort.distance-computations: 479079
+de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort.variance-sum: 1.5356778159839302E10
+de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort.distance-computations: 538749
+de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort.variance-sum: 1.533466996981189E10
+de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort.distance-computations: 598361
+de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort.variance-sum: 1.5317394988824524E10
+de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort.distance-computations: 657947
+de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort.variance-sum: 1.530292802255056E10
+de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort.distance-computations: 717502
+de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort.variance-sum: 1.5293127858812244E10
+de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort.distance-computations: 777066
+de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort.variance-sum: 1.5283946681899E10
+de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort.distance-computations: 836632
+de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort.variance-sum: 1.5275835095439592E10
+de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort.distance-computations: 896212
+de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort.variance-sum: 1.5269228679163595E10
+de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort.distance-computations: 955803
+de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort.variance-sum: 1.5263428780135015E10
+de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort.distance-computations: 1015397
+de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort.variance-sum: 1.525699664749523E10
+de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort.distance-computations: 1075000
+de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort.variance-sum: 1.525198845476944E10
+de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort.distance-computations: 1134614
+de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort.variance-sum: 1.5248843987989334E10
+de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort.distance-computations: 1194242
+de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort.variance-sum: 1.5246608991303843E10
+de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort.distance-computations: 1253883
+de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort.variance-sum: 1.5245238545131033E10
+de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort.distance-computations: 1313524
+de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort.variance-sum: 1.5244622115551565E10
+de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort.distance-computations: 1373167
+de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort.variance-sum: 1.5244191960105707E10
+de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort.distance-computations: 1432811
+de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort.variance-sum: 1.5243860324603926E10
+de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort.distance-computations: 1492458
+de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort.variance-sum: 1.5243663353089012E10
+de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort.distance-computations: 1552104
+de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort.variance-sum: 1.5243371006836142E10
+de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort.distance-computations: 1611745
+de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort.variance-sum: 1.524318766552218E10
+de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort.distance-computations: 1671389
+de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort.variance-sum: 1.5243020105699223E10
+de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort.distance-computations: 1731035
+de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort.variance-sum: 1.524297482924505E10
+de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort.distance-computations: 1790681
+de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort.variance-sum: 1.5242967129867493E10
+de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort.distance-computations: 1850327
+K-Means iteration: 31
+de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort.iterations: 30
+de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort.runtime: 2062 ms
+Number of clusters: 0
+de.lmu.ifi.dbs.elki.algorithm.clustering.DBSCAN.average-neighbors: 1.0
+There are very few neighbors found. Epsilon may be too small.
+de.lmu.ifi.dbs.elki.algorithm.clustering.DBSCAN.runtime: 42508 ms
+de.lmu.ifi.dbs.elki.evaluation.clustering.internal.EvaluateSilhouette.silhouette.noise-handling: TREAT_NOISE_AS_SINGLETONS
+de.lmu.ifi.dbs.elki.evaluation.clustering.internal.EvaluateSilhouette.silhouette.mean: 0.05724661476094256
+de.lmu.ifi.dbs.elki.evaluation.clustering.internal.EvaluateSilhouette.silhouette.stddev: 0.0862833856411664
+de.lmu.ifi.dbs.elki.evaluation.clustering.internal.EvaluateSilhouette.silhouette.noise-handling: TREAT_NOISE_AS_SINGLETONS
+de.lmu.ifi.dbs.elki.evaluation.clustering.internal.EvaluateSilhouette.silhouette.mean: 0.0
+de.lmu.ifi.dbs.elki.evaluation.clustering.internal.EvaluateSilhouette.silhouette.stddev: 0.0
+de.lmu.ifi.dbs.elki.evaluation.clustering.internal.EvaluateDaviesBouldin.db-index.noise-handling: MERGE_NOISE
+de.lmu.ifi.dbs.elki.evaluation.clustering.internal.EvaluateDaviesBouldin.db-index: 2.8636820514976487
+de.lmu.ifi.dbs.elki.evaluation.clustering.internal.EvaluateDaviesBouldin.db-index.noise-handling: MERGE_NOISE
+de.lmu.ifi.dbs.elki.evaluation.clustering.internal.EvaluateDaviesBouldin.db-index: 0.0
+

@@ -1,0 +1,12 @@
+CMM took 112.0ms (Mean:115.07466137777777)
+EntropyCollection took 0.0ms (Mean:0.2908141111111111)
+F1 took 0.0ms (Mean:0.27372044444444443)
+General took 0.0ms (Mean:0.3071012444444445)
+OutlierPerformance took 0.0ms (Mean:0.0)
+RegressionAccuracy took 0.0ms (Mean:0.0)
+SSQ took 0.0ms (Mean:0.07285922222222223)
+SilhouetteCoefficient took 0.0ms (Mean:1.1384117111111112)
+
+FileStream -f /home/kchoppella/book/Chapter05/expt/elecNormNew.arff -K
+clustree.ClusTree -h 5000
+clustree.ClusTree

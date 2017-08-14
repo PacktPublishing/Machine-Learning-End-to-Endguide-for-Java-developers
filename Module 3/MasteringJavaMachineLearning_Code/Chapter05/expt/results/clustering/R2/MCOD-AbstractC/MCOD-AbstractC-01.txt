@@ -1,0 +1,11 @@
+CMM took 205.0ms (Mean:148.99443406666666)
+EntropyCollection took 22.0ms (Mean:21.697255955555555)
+F1 took 21.0ms (Mean:22.36434977777778)
+General took 21.0ms (Mean:22.98965088888889)
+RegressionAccuracy took 0.0ms (Mean:0.0)
+SSQ took 18.0ms (Mean:19.406150977777777)
+SilhouetteCoefficient took 665.0ms (Mean:711.4058566444444)
+
+FileStream -f /home/kchoppella/book/Chapter05/expt/elecNormNew.arff -K
+outliers.MCOD.MCOD -t 100
+outliers.AbstractC.AbstractC -t 200

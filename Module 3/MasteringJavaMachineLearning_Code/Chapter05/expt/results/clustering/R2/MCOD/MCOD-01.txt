@@ -1,0 +1,20 @@
+CMM took 148.0ms (Mean:153.10072697777778)
+EntropyCollection took 26.0ms (Mean:27.456019577777777)
+F1 took 27.0ms (Mean:28.68048344444444)
+OutlierPerformance took 0.0ms (Mean:0.0)
+RegressionAccuracy took 0.0ms (Mean:0.0)
+SSQ took 20.0ms (Mean:21.652514755555554)
+SilhouetteCoefficient took 714.0ms (Mean:714.1229929777777)
+
+FileStream -f /home/kchoppella/book/Chapter05/expt/elecNormNew.arff -K
+outliers.MCOD.MCOD -w 5000
+outliers.MCOD.MCOD
+
+Help:
+-r radius (default: 0.1)
+Search radius.
+-t k (default: 50)
+Parameter k.
+-w windowSize (default: 1000)
+Size of the window.
+

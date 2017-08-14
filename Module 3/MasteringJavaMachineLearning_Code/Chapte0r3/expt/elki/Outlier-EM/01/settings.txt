@@ -1,0 +1,51 @@
+# Settings:
+# de.lmu.ifi.dbs.elki.workflow.InputStep
+# -db StaticArrayDatabase
+# 
+# de.lmu.ifi.dbs.elki.database.StaticArrayDatabase
+# -dbc FileBasedDatabaseConnection
+# 
+# de.lmu.ifi.dbs.elki.datasource.FileBasedDatabaseConnection
+# -dbc.in /home/kchoppella/book/Chapter03/data/MNIST-Class 1 and Undersampled7.arff
+# -dbc.parser ArffParser
+# 
+# de.lmu.ifi.dbs.elki.datasource.parser.ArffParser
+# -arff.externalid (External-?ID)
+# -arff.classlabel (Class|Class-?Label)
+# 
+# de.lmu.ifi.dbs.elki.datasource.FileBasedDatabaseConnection
+# -dbc.filter [unset]
+# 
+# de.lmu.ifi.dbs.elki.database.StaticArrayDatabase
+# -db.index [unset]
+# 
+# de.lmu.ifi.dbs.elki.workflow.AlgorithmStep
+# -time false
+# -algorithm outlier.clustering.EMOutlier
+# 
+# de.lmu.ifi.dbs.elki.algorithm.clustering.em.EM
+# -em.k 1
+# -em.model MultivariateGaussianModelFactory
+# 
+# de.lmu.ifi.dbs.elki.algorithm.clustering.em.MultivariateGaussianModelFactory
+# -em.centers RandomlyGeneratedInitialMeans
+# 
+# de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.initialization.RandomlyGeneratedInitialMeans
+# -kmeans.seed null
+# 
+# de.lmu.ifi.dbs.elki.algorithm.clustering.em.EM
+# -em.delta 1.0E-7
+# -kmeans.maxiter [unset]
+# 
+# de.lmu.ifi.dbs.elki.workflow.EvaluationStep
+# -evaluator outlier.OutlierROCCurve,outlier.OutlierPrecisionAtKCurve,outlier.OutlierPrecisionRecallCurve
+# 
+# de.lmu.ifi.dbs.elki.evaluation.outlier.OutlierROCCurve
+# -rocauc.positive 1
+# 
+# de.lmu.ifi.dbs.elki.evaluation.outlier.OutlierPrecisionAtKCurve
+# -precision.positive 1
+# -precision.maxk [unset]
+# 
+# de.lmu.ifi.dbs.elki.evaluation.outlier.OutlierPrecisionRecallCurve
+# -precision.positive 1

@@ -1,0 +1,42 @@
+# Settings:
+# de.lmu.ifi.dbs.elki.workflow.InputStep
+# -db StaticArrayDatabase
+# 
+# de.lmu.ifi.dbs.elki.database.StaticArrayDatabase
+# -dbc FileBasedDatabaseConnection
+# 
+# de.lmu.ifi.dbs.elki.datasource.FileBasedDatabaseConnection
+# -dbc.in /home/kchoppella/book/Chapter03/data/MNIST-6000-Sample.arff
+# -dbc.parser ArffParser
+# 
+# de.lmu.ifi.dbs.elki.datasource.parser.ArffParser
+# -arff.externalid (External-?ID)
+# -arff.classlabel (Class|Class-?Label)
+# 
+# de.lmu.ifi.dbs.elki.datasource.FileBasedDatabaseConnection
+# -dbc.filter [unset]
+# 
+# de.lmu.ifi.dbs.elki.database.StaticArrayDatabase
+# -db.index [unset]
+# 
+# de.lmu.ifi.dbs.elki.workflow.AlgorithmStep
+# -time false
+# -algorithm clustering.kmeans.KMeansLloyd
+# 
+# de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansLloyd
+# -kmeans.k 4
+# -kmeans.initialization RandomlyChosenInitialMeans
+# 
+# de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.initialization.RandomlyChosenInitialMeans
+# -kmeans.seed null
+# 
+# de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansLloyd
+# -algorithm.distancefunction minkowski.SquaredEuclideanDistanceFunction
+# -kmeans.maxiter 0
+# 
+# de.lmu.ifi.dbs.elki.workflow.EvaluationStep
+# -evaluator clustering.internal.EvaluateSquaredErrors
+# 
+# de.lmu.ifi.dbs.elki.evaluation.clustering.internal.EvaluateSquaredErrors
+# -ssq.distance minkowski.SquaredEuclideanDistanceFunction
+# -ssq.noisehandling TREAT_NOISE_AS_SINGLETONS

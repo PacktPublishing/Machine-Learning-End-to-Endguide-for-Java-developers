@@ -1,0 +1,51 @@
+# Settings:
+# de.lmu.ifi.dbs.elki.workflow.InputStep
+# -db StaticArrayDatabase
+# 
+# de.lmu.ifi.dbs.elki.database.StaticArrayDatabase
+# -dbc FileBasedDatabaseConnection
+# 
+# de.lmu.ifi.dbs.elki.datasource.FileBasedDatabaseConnection
+# -dbc.in /home/kchoppella/book/Chapter03/MNIST-PCA-Sampled-95%Variance.arff
+# -dbc.parser ArffParser
+# 
+# de.lmu.ifi.dbs.elki.datasource.parser.ArffParser
+# -arff.externalid (External-?ID)
+# -arff.classlabel (Class|Class-?Label)
+# 
+# de.lmu.ifi.dbs.elki.datasource.FileBasedDatabaseConnection
+# -dbc.filter [unset]
+# 
+# de.lmu.ifi.dbs.elki.database.StaticArrayDatabase
+# -db.index [unset]
+# 
+# de.lmu.ifi.dbs.elki.workflow.AlgorithmStep
+# -time false
+# -algorithm clustering.kmeans.KMeansSort
+# 
+# de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort
+# -kmeans.k 10
+# -kmeans.initialization RandomlyChosenInitialMeans
+# 
+# de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.initialization.RandomlyChosenInitialMeans
+# -kmeans.seed null
+# 
+# de.lmu.ifi.dbs.elki.algorithm.clustering.kmeans.KMeansSort
+# -algorithm.distancefunction minkowski.SquaredEuclideanDistanceFunction
+# -kmeans.maxiter 0
+# 
+# de.lmu.ifi.dbs.elki.workflow.EvaluationStep
+# -evaluator clustering.internal.EvaluateDaviesBouldin,clustering.internal.EvaluateSilhouette,clustering.EvaluateClustering
+# 
+# de.lmu.ifi.dbs.elki.evaluation.clustering.internal.EvaluateDaviesBouldin
+# -davies-bouldin.distance minkowski.EuclideanDistanceFunction
+# -davies-bouldin.noisehandling TREAT_NOISE_AS_SINGLETONS
+# 
+# de.lmu.ifi.dbs.elki.evaluation.clustering.internal.EvaluateSilhouette
+# -silhouette.distance minkowski.EuclideanDistanceFunction
+# -silhouette.noisehandling TREAT_NOISE_AS_SINGLETONS
+# 
+# de.lmu.ifi.dbs.elki.evaluation.clustering.EvaluateClustering
+# -paircounting.reference trivial.ByLabelOrAllInOneClustering
+# -paircounting.noisespecial false
+# -paircounting.selfpair false

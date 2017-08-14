@@ -1,0 +1,6 @@
+# Cluster: mrg_5996_3860.7064120443038
+# Cluster name: mrg_5996_3860.7064120443038
+# Cluster noise flag: false
+# Cluster size: 0
+# Parents: mrg_5991_4012.1238764524705
+# Children: mrg_5817_3836.485631407995 mrg_5817_3607.041031094601

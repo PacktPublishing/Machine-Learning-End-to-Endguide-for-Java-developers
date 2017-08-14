@@ -1,0 +1,10 @@
+# Evaluation measures:
+ROC AUC 0.5
+Average Precision 0.011001906997212851
+R-Precision 0.011001906997212851
+Maximum F1 0.02176436448055717
+# Adjusted for chance:
+Adjusted AUC 0.0
+Adjusted AveP 0.0
+Adjusted R-Prec 0.0
+Adjusted Max F1 0.010882182240278582

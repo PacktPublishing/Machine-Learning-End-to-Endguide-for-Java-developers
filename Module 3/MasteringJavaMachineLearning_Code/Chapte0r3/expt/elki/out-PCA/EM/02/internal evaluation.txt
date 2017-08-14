@@ -1,0 +1,3 @@
+# Distance-based Evaluation
+Davies Bouldin Index 3.5428727158021034
+Silhouette +-0.16 -0.04017318071997501

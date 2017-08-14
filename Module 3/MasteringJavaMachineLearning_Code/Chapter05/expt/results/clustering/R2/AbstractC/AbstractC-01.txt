@@ -1,0 +1,32 @@
+CMM took 150.0ms (Mean:146.1634)
+EntropyCollection took 25.0ms (Mean:28.345318533333334)
+F1 took 25.0ms (Mean:26.174726266666667)
+OutlierPerformance took 0.0ms (Mean:0.0)
+RegressionAccuracy took 0.0ms (Mean:0.0)
+SSQ took 20.0ms (Mean:26.10437748888889)
+SilhouetteCoefficient took 634.0ms (Mean:652.6948118888888)
+
+FileStream -f /home/kchoppella/book/Chapter05/expt/elecNormNew.arff -K
+outliers.AbstractC.AbstractC -w 5000
+outliers.AbstractC.AbstractC
+
+AbstractC Help:
+-h horizon (default: 1000)
+Range of the window.
+-e epsilon (default: 0.02)
+Defines the epsilon neighbourhood
+-b beta (default: 0.2)
+
+-m mu (default: 1.0)
+
+-i initPoints (default: 1000)
+Number of points to use for initialization.
+-o offline (default: 2.0)
+offline multiplier for epsilion.
+-l lambda (default: 0.25)
+
+-s processingSpeed (default: 100)
+Number of incoming points per time unit.
+-M evaluateMicroClustering
+Evaluate the underlying microclustering instead of the macro clustering
+    

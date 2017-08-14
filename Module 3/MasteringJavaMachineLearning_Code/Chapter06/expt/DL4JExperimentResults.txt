@@ -1,0 +1,571 @@
+Enter a number for the example to run: 9
+
+====== org.deeplearning4j.examples.mmlj.expt.MnistRBMExample
+
+o.d.e.m.e.MnistRBMExample - Load data....
+
+o.n.l.f.Nd4jBackend - Loaded [CpuBackend] backend
+o.n.n.NativeOpsHolder - Number of threads used for NativeOps: 4
+o.d.e.m.e.MnistRBMExample - Build model....
+o.d.n.c.NeuralNetConfiguration - Layer "Layer not named" momentum has been set but will not be applied unless the updater is set to NESTEROVS.
+o.d.n.c.NeuralNetConfiguration - Layer "Layer not named" momentum schedule has been set but will not be applied unless the updater is set to NESTEROVS.
+o.d.n.c.NeuralNetConfiguration - Layer "Layer not named" momentum has been set but will not be applied unless the updater is set to NESTEROVS.
+o.d.n.c.NeuralNetConfiguration - Layer "Layer not named" momentum schedule has been set but will not be applied unless the updater is set to NESTEROVS.
+o.d.n.c.NeuralNetConfiguration - Layer "Layer not named" momentum has been set but will not be applied unless the updater is set to NESTEROVS.
+o.d.n.c.NeuralNetConfiguration - Layer "Layer not named" momentum schedule has been set but will not be applied unless the updater is set to NESTEROVS.
+o.d.n.c.MultiLayerConfiguration - Warning: new network default sets pretrain to false.
+o.d.n.c.MultiLayerConfiguration - Warning: new network default sets backprop to true.
+o.d.e.m.e.MnistRBMExample - Train model....
+o.n.n.Nd4jBlas - Number of threads used for BLAS: 4
+o.d.n.m.MultiLayerNetwork - Warning: final layer isn't output layer. You cannot use backprop without an output layer.
+Exception in thread "main" java.lang.IllegalStateException: Cannot calculate gradient and score with respect to labels: final layer is not an IOutputLayer
+	at org.deeplearning4j.nn.multilayer.MultiLayerNetwork.computeGradientAndScore(MultiLayerNetwork.java:1838)
+	at org.deeplearning4j.optimize.solvers.BaseOptimizer.gradientAndScore(BaseOptimizer.java:151)
+	at org.deeplearning4j.optimize.solvers.BaseOptimizer.optimize(BaseOptimizer.java:179)
+	at org.deeplearning4j.optimize.Solver.optimize(Solver.java:51)
+	at org.deeplearning4j.nn.multilayer.MultiLayerNetwork.fit(MultiLayerNetwork.java:1443)
+	at org.deeplearning4j.nn.multilayer.MultiLayerNetwork.fit(MultiLayerNetwork.java:1408)
+	at org.deeplearning4j.nn.multilayer.MultiLayerNetwork.fit(MultiLayerNetwork.java:1487)
+	at org.deeplearning4j.examples.mmlj.expt.MnistRBMExample.main(MnistRBMExample.java:103)
+
+
+Enter a number for the example to run: 5
+
+====== org.deeplearning4j.examples.mmlj.expt.StackedRBMExample
+
+o.d.e.m.e.StackedRBMExample - Load data....
+
+o.d.e.m.e.StackedRBMExample - Build model....
+o.n.l.f.Nd4jBackend - Loaded [CpuBackend] backend
+o.n.n.NativeOpsHolder - Number of threads used for NativeOps: 4
+o.d.n.c.MultiLayerConfiguration - Warning: pretrain is set to true and if finetune is needed set backprop to true.
+o.d.e.m.e.StackedRBMExample - Train model....
+o.n.n.Nd4jBlas - Number of threads used for BLAS: 4
+o.d.o.l.ScoreIterationListener - Score at iteration 0 is 67.462578125
+o.d.o.l.ScoreIterationListener - Score at iteration 1 is -108.6168203125
+
+
+
+Enter a number for the example to run: 9
+
+====== org.deeplearning4j.examples.mmlj.expt.MnistRBMExample
+
+o.d.e.m.e.MnistRBMExample - Load data....
+o.n.l.f.Nd4jBackend - Loaded [CpuBackend] backend
+o.n.n.NativeOpsHolder - Number of threads used for NativeOps: 4
+o.d.e.m.e.MnistRBMExample - Load data....
+o.d.e.m.e.MnistRBMExample - Build model....
+o.d.n.c.NeuralNetConfiguration - Layer "Layer not named" momentum has been set but will not be applied unless the updater is set to NESTEROVS.
+o.d.n.c.NeuralNetConfiguration - Layer "Layer not named" momentum schedule has been set but will not be applied unless the updater is set to NESTEROVS.
+o.d.n.c.NeuralNetConfiguration - Layer "Layer not named" momentum has been set but will not be applied unless the updater is set to NESTEROVS.
+o.d.n.c.NeuralNetConfiguration - Layer "Layer not named" momentum schedule has been set but will not be applied unless the updater is set to NESTEROVS.
+o.d.n.c.NeuralNetConfiguration - Layer "Layer not named" momentum has been set but will not be applied unless the updater is set to NESTEROVS.
+o.d.n.c.NeuralNetConfiguration - Layer "Layer not named" momentum schedule has been set but will not be applied unless the updater is set to NESTEROVS.
+o.d.n.c.MultiLayerConfiguration - Warning: new network default sets pretrain to false.
+o.d.n.c.MultiLayerConfiguration - Warning: new network default sets backprop to true.
+o.d.e.m.e.MnistRBMExample - Train model....
+o.n.n.Nd4jBlas - Number of threads used for BLAS: 4
+o.d.n.m.MultiLayerNetwork - Warning: final layer isn't output layer. You cannot use backprop without an output layer.
+Exception in thread "main" java.lang.IllegalStateException: Cannot calculate gradient and score with respect to labels: final layer is not an IOutputLayer
+	at org.deeplearning4j.nn.multilayer.MultiLayerNetwork.computeGradientAndScore(MultiLayerNetwork.java:1838)
+	at org.deeplearning4j.optimize.solvers.BaseOptimizer.gradientAndScore(BaseOptimizer.java:151)
+	at org.deeplearning4j.optimize.solvers.BaseOptimizer.optimize(BaseOptimizer.java:179)
+	at org.deeplearning4j.optimize.Solver.optimize(Solver.java:51)
+	at org.deeplearning4j.nn.multilayer.MultiLayerNetwork.fit(MultiLayerNetwork.java:1443)
+	at org.deeplearning4j.nn.multilayer.MultiLayerNetwork.fit(MultiLayerNetwork.java:1408)
+	at org.deeplearning4j.nn.multilayer.MultiLayerNetwork.fit(MultiLayerNetwork.java:1487)
+	at org.deeplearning4j.examples.mmlj.expt.MnistRBMExample.main(MnistRBMExample.java:103)
+	
+	
+	
+	
+Enter a number for the example to run: 8
+
+====== org.deeplearning4j.examples.mmlj.expt.StackedAutoEncoderMnistExample
+
+o.d.e.m.e.StackedAutoEncoderMnistExample - Load data....
+
+o.d.e.m.e.StackedAutoEncoderMnistExample - Build model....
+o.n.l.f.Nd4jBackend - Loaded [CpuBackend] backend
+o.n.n.NativeOpsHolder - Number of threads used for NativeOps: 4
+o.d.n.c.MultiLayerConfiguration - Warning: pretrain is set to true and if finetune is needed set backprop to true.
+o.d.e.m.e.StackedAutoEncoderMnistExample - Train model....
+o.d.n.m.MultiLayerNetwork - Starting unsupervised training on layer 0
+o.n.n.Nd4jBlas - Number of threads used for BLAS: 4
+o.d.o.l.ScoreIterationListener - Score at iteration 0 is 15.184434814453125
+
+	o.d.o.l.ScoreIterationListener - Score at iteration 17980 is 27.113896484375
+o.d.n.m.MultiLayerNetwork - Warning: finetune is not applied.
+o.d.e.m.e.StackedAutoEncoderMnistExample - Evaluate model....
+
+o.d.e.m.e.StackedAutoEncoderMnistExample - 
+Examples labeled as 0 classified by model as 3: 1001 times
+Examples labeled as 1 classified by model as 3: 1127 times
+Examples labeled as 2 classified by model as 3: 991 times
+Examples labeled as 3 classified by model as 3: 1032 times
+Examples labeled as 4 classified by model as 3: 980 times
+Examples labeled as 5 classified by model as 3: 863 times
+Examples labeled as 6 classified by model as 3: 1014 times
+Examples labeled as 7 classified by model as 3: 1070 times
+Examples labeled as 8 classified by model as 3: 944 times
+Examples labeled as 9 classified by model as 3: 978 times
+
+Warning: class 0 was never predicted by the model. This class was excluded from the average precision
+Warning: class 1 was never predicted by the model. This class was excluded from the average precision
+Warning: class 2 was never predicted by the model. This class was excluded from the average precision
+Warning: class 4 was never predicted by the model. This class was excluded from the average precision
+Warning: class 5 was never predicted by the model. This class was excluded from the average precision
+Warning: class 6 was never predicted by the model. This class was excluded from the average precision
+Warning: class 7 was never predicted by the model. This class was excluded from the average precision
+Warning: class 8 was never predicted by the model. This class was excluded from the average precision
+Warning: class 9 was never predicted by the model. This class was excluded from the average precision
+
+==========================Scores========================================
+ Accuracy:        0.1032
+ Precision:       0.1032
+ Recall:          0.1
+ F1 Score:        0.1016
+========================================================================
+o.d.e.m.e.StackedAutoEncoderMnistExample - ****************Example finished********************
+
+
+Enter a number for the example to run: 8
+
+====== org.deeplearning4j.examples.mmlj.expt.StackedAutoEncoderMnistExample
+
+o.d.e.m.e.StackedAutoEncoderMnistExample - Load data....
+
+o.d.e.m.e.StackedAutoEncoderMnistExample - Build model....
+o.n.l.f.Nd4jBackend - Loaded [CpuBackend] backend
+o.n.n.NativeOpsHolder - Number of threads used for NativeOps: 4
+o.d.n.c.MultiLayerConfiguration - Warning: new network default sets backprop to true.
+o.d.e.m.e.StackedAutoEncoderMnistExample - Train model....
+o.d.n.m.MultiLayerNetwork - Starting unsupervised training on layer 0
+o.n.n.Nd4jBlas - Number of threads used for BLAS: 4
+o.d.o.l.ScoreIterationListener - Score at iteration 0 is 15.5020693359375
+o.d.n.m.MultiLayerNetwork - Starting unsupervised training on layer 1
+o.d.n.m.MultiLayerNetwork - Starting unsupervised training on layer 2
+o.d.o.l.ScoreIterationListener - Score at iteration 200 is 2.301877685546875
+o.d.e.m.e.StackedAutoEncoderMnistExample - Evaluate model....
+
+o.d.e.m.e.StackedAutoEncoderMnistExample - 
+Examples labeled as 0 classified by model as 7: 1001 times
+Examples labeled as 1 classified by model as 7: 1127 times
+Examples labeled as 2 classified by model as 7: 991 times
+Examples labeled as 3 classified by model as 7: 1032 times
+Examples labeled as 4 classified by model as 7: 980 times
+Examples labeled as 5 classified by model as 7: 863 times
+Examples labeled as 6 classified by model as 7: 1014 times
+Examples labeled as 7 classified by model as 7: 1070 times
+Examples labeled as 8 classified by model as 7: 944 times
+Examples labeled as 9 classified by model as 7: 978 times
+
+Warning: class 0 was never predicted by the model. This class was excluded from the average precision
+Warning: class 1 was never predicted by the model. This class was excluded from the average precision
+Warning: class 2 was never predicted by the model. This class was excluded from the average precision
+Warning: class 3 was never predicted by the model. This class was excluded from the average precision
+Warning: class 4 was never predicted by the model. This class was excluded from the average precision
+Warning: class 5 was never predicted by the model. This class was excluded from the average precision
+Warning: class 6 was never predicted by the model. This class was excluded from the average precision
+Warning: class 8 was never predicted by the model. This class was excluded from the average precision
+Warning: class 9 was never predicted by the model. This class was excluded from the average precision
+
+==========================Scores========================================
+ Accuracy:        0.107
+ Precision:       0.107
+ Recall:          0.1
+ F1 Score:        0.1034
+========================================================================
+o.d.e.m.e.StackedAutoEncoderMnistExample - ****************Example finished********************
+
+        int batchSize = 1000;
+        int iterations = 10;
+Enter a number for the example to run: 8
+
+====== org.deeplearning4j.examples.mmlj.expt.StackedAutoEncoderMnistExample
+
+o.d.e.m.e.StackedAutoEncoderMnistExample - Load data....
+
+o.d.e.m.e.StackedAutoEncoderMnistExample - Build model....
+o.n.l.f.Nd4jBackend - Loaded [CpuBackend] backend
+o.n.n.NativeOpsHolder - Number of threads used for NativeOps: 4
+o.d.n.c.MultiLayerConfiguration - Warning: new network default sets backprop to true.
+o.d.e.m.e.StackedAutoEncoderMnistExample - Train model....
+o.d.n.m.MultiLayerNetwork - Starting unsupervised training on layer 0
+o.n.n.Nd4jBlas - Number of threads used for BLAS: 4
+o.d.o.l.ScoreIterationListener - Score at iteration 0 is 15.5020693359375
+o.d.o.l.ScoreIterationListener - Score at iteration 200 is 7.09929833984375
+o.d.o.l.ScoreIterationListener - Score at iteration 400 is 7.01785791015625
+o.d.n.m.MultiLayerNetwork - Starting unsupervised training on layer 1
+o.d.o.l.ScoreIterationListener - Score at iteration 600 is 86.6252578125
+o.d.o.l.ScoreIterationListener - Score at iteration 800 is 28.108623046875
+o.d.o.l.ScoreIterationListener - Score at iteration 1000 is 19.18373046875
+o.d.n.m.MultiLayerNetwork - Starting unsupervised training on layer 2
+o.d.o.l.ScoreIterationListener - Score at iteration 1200 is 44.37971484375
+o.d.o.l.ScoreIterationListener - Score at iteration 1400 is 26.76334375
+o.d.o.l.ScoreIterationListener - Score at iteration 1600 is 26.921962890625
+o.d.o.l.ScoreIterationListener - Score at iteration 1800 is 3.04258349609375
+o.d.o.l.ScoreIterationListener - Score at iteration 2000 is 2.302039794921875
+o.d.o.l.ScoreIterationListener - Score at iteration 2200 is 2.299125732421875
+o.d.e.m.e.StackedAutoEncoderMnistExample - Evaluate model....
+
+o.d.e.m.e.StackedAutoEncoderMnistExample - 
+Examples labeled as 0 classified by model as 6: 1001 times
+Examples labeled as 1 classified by model as 6: 1127 times
+Examples labeled as 2 classified by model as 6: 991 times
+Examples labeled as 3 classified by model as 6: 1032 times
+Examples labeled as 4 classified by model as 6: 980 times
+Examples labeled as 5 classified by model as 6: 863 times
+Examples labeled as 6 classified by model as 6: 1014 times
+Examples labeled as 7 classified by model as 6: 1070 times
+Examples labeled as 8 classified by model as 6: 944 times
+Examples labeled as 9 classified by model as 6: 978 times
+
+Warning: class 0 was never predicted by the model. This class was excluded from the average precision
+Warning: class 1 was never predicted by the model. This class was excluded from the average precision
+Warning: class 2 was never predicted by the model. This class was excluded from the average precision
+Warning: class 3 was never predicted by the model. This class was excluded from the average precision
+Warning: class 4 was never predicted by the model. This class was excluded from the average precision
+Warning: class 5 was never predicted by the model. This class was excluded from the average precision
+Warning: class 7 was never predicted by the model. This class was excluded from the average precision
+Warning: class 8 was never predicted by the model. This class was excluded from the average precision
+Warning: class 9 was never predicted by the model. This class was excluded from the average precision
+
+==========================Scores========================================
+ Accuracy:        0.1014
+ Precision:       0.1014
+ Recall:          0.1
+ F1 Score:        0.1007
+========================================================================
+o.d.e.m.e.StackedAutoEncoderMnistExample - ****************Example finished********************
+
+
+
+
+
+o.d.o.l.ScoreIterationListener - Score at iteration 359 is 0.09109047851562499
+
+o.d.e.m.e.StackedRBMExample - Evaluate model....
+o.d.e.m.e.StackedRBMExample - 
+Examples labeled as 0 classified by model as 7: 980 times
+Examples labeled as 1 classified by model as 7: 1135 times
+Examples labeled as 2 classified by model as 7: 1032 times
+Examples labeled as 3 classified by model as 7: 1010 times
+Examples labeled as 4 classified by model as 7: 982 times
+Examples labeled as 5 classified by model as 7: 892 times
+Examples labeled as 6 classified by model as 7: 958 times
+Examples labeled as 7 classified by model as 7: 1028 times
+Examples labeled as 8 classified by model as 7: 974 times
+Examples labeled as 9 classified by model as 7: 1009 times
+
+Warning: class 0 was never predicted by the model. This class was excluded from the average precision
+Warning: class 1 was never predicted by the model. This class was excluded from the average precision
+Warning: class 2 was never predicted by the model. This class was excluded from the average precision
+Warning: class 3 was never predicted by the model. This class was excluded from the average precision
+Warning: class 4 was never predicted by the model. This class was excluded from the average precision
+Warning: class 5 was never predicted by the model. This class was excluded from the average precision
+Warning: class 6 was never predicted by the model. This class was excluded from the average precision
+Warning: class 8 was never predicted by the model. This class was excluded from the average precision
+Warning: class 9 was never predicted by the model. This class was excluded from the average precision
+
+==========================Scores========================================
+ Accuracy:        0.1028
+ Precision:       0.1028
+ Recall:          0.1
+ F1 Score:        0.1014
+========================================================================
+o.d.e.m.e.StackedRBMExample - ****************Example finished********************
+
+
+
+
+
+Enter a number for the example to run: 7
+
+====== org.deeplearning4j.examples.mmlj.expt.DBNMnistExample
+
+o.d.e.m.e.DBNMnistExample - Load data....
+
+o.d.e.m.e.DBNMnistExample - Build model....
+o.n.l.f.Nd4jBackend - Loaded [CpuBackend] backend
+o.n.n.NativeOpsHolder - Number of threads used for NativeOps: 4
+o.d.n.c.NeuralNetConfiguration - Layer "Layer not named" momentum has been set but will not be applied unless the updater is set to NESTEROVS.
+o.d.n.c.NeuralNetConfiguration - Layer "Layer not named" momentum schedule has been set but will not be applied unless the updater is set to NESTEROVS.
+o.d.n.c.NeuralNetConfiguration - Layer "Layer not named" momentum has been set but will not be applied unless the updater is set to NESTEROVS.
+o.d.n.c.NeuralNetConfiguration - Layer "Layer not named" momentum schedule has been set but will not be applied unless the updater is set to NESTEROVS.
+o.d.n.c.NeuralNetConfiguration - Layer "Layer not named" momentum has been set but will not be applied unless the updater is set to NESTEROVS.
+o.d.n.c.NeuralNetConfiguration - Layer "Layer not named" momentum schedule has been set but will not be applied unless the updater is set to NESTEROVS.
+o.d.n.c.NeuralNetConfiguration - Layer "Layer not named" momentum has been set but will not be applied unless the updater is set to NESTEROVS.
+o.d.n.c.NeuralNetConfiguration - Layer "Layer not named" momentum schedule has been set but will not be applied unless the updater is set to NESTEROVS.
+o.d.n.c.MultiLayerConfiguration - Warning: pretrain is set to true and if finetune is needed set backprop to true.
+o.d.e.m.e.DBNMnistExample - Train model....
+o.d.n.m.MultiLayerNetwork - Starting unsupervised training on layer 0
+o.n.n.Nd4jBlas - Number of threads used for BLAS: 4
+o.d.o.l.ScoreIterationListener - Score at iteration 0 is 548.840234375
+
+
+
+o.d.o.l.ScoreIterationListener - Score at iteration 17980 is 175.015546875
+o.d.n.m.MultiLayerNetwork - Warning: finetune is not applied.
+o.d.e.m.e.DBNMnistExample - Evaluate model....
+
+o.d.e.m.e.DBNMnistExample - 
+Examples labeled as 0 classified by model as 3: 1001 times
+Examples labeled as 1 classified by model as 3: 1127 times
+Examples labeled as 2 classified by model as 3: 991 times
+Examples labeled as 3 classified by model as 3: 1032 times
+Examples labeled as 4 classified by model as 3: 980 times
+Examples labeled as 5 classified by model as 3: 863 times
+Examples labeled as 6 classified by model as 3: 1014 times
+Examples labeled as 7 classified by model as 3: 1070 times
+Examples labeled as 8 classified by model as 3: 944 times
+Examples labeled as 9 classified by model as 3: 978 times
+
+Warning: class 0 was never predicted by the model. This class was excluded from the average precision
+Warning: class 1 was never predicted by the model. This class was excluded from the average precision
+Warning: class 2 was never predicted by the model. This class was excluded from the average precision
+Warning: class 4 was never predicted by the model. This class was excluded from the average precision
+Warning: class 5 was never predicted by the model. This class was excluded from the average precision
+Warning: class 6 was never predicted by the model. This class was excluded from the average precision
+Warning: class 7 was never predicted by the model. This class was excluded from the average precision
+Warning: class 8 was never predicted by the model. This class was excluded from the average precision
+Warning: class 9 was never predicted by the model. This class was excluded from the average precision
+
+==========================Scores========================================
+ Accuracy:        0.1032
+ Precision:       0.1032
+ Recall:          0.1
+ F1 Score:        0.1016
+========================================================================
+o.d.e.m.e.DBNMnistExample - ****************Example finished********************
+
+VAE 
+==========================Scores========================================
+ Accuracy:        0.1438
+ Precision:       0.1387
+ Recall:          0.1397
+ F1 Score:        0.1392
+========================================================================
+
+
+VariationalAutoEncoderExample
+
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+
+o.n.l.f.Nd4jBackend - Loaded [CpuBackend] backend
+o.n.n.NativeOpsHolder - Number of threads used for NativeOps: 4
+o.d.n.c.MultiLayerConfiguration - Warning: new network default sets backprop to true.
+
+o.d.u.p.PlayUIServer - UI Server started at http://localhost:9000
+o.d.u.p.PlayUIServer - StatsStorage instance attached to UI: InMemoryStatsStorage(uid=4eca09d3)
+o.d.e.m.e.VariationalAutoEncoderExample - Starting epoch 1 of 20
+o.n.n.Nd4jBlas - Number of threads used for BLAS: 4
+o.d.e.m.e.VariationalAutoEncoderExample - Starting epoch 2 of 20
+o.d.e.m.e.VariationalAutoEncoderExample - Starting epoch 3 of 20
+o.d.e.m.e.VariationalAutoEncoderExample - Starting epoch 4 of 20
+o.d.e.m.e.VariationalAutoEncoderExample - Starting epoch 5 of 20
+o.d.e.m.e.VariationalAutoEncoderExample - Starting epoch 6 of 20
+o.d.e.m.e.VariationalAutoEncoderExample - Starting epoch 7 of 20
+o.d.e.m.e.VariationalAutoEncoderExample - Starting epoch 8 of 20
+o.d.e.m.e.VariationalAutoEncoderExample - Starting epoch 9 of 20
+o.d.e.m.e.VariationalAutoEncoderExample - Starting epoch 10 of 20
+o.d.e.m.e.VariationalAutoEncoderExample - Starting epoch 11 of 20
+o.d.e.m.e.VariationalAutoEncoderExample - Starting epoch 12 of 20
+o.d.e.m.e.VariationalAutoEncoderExample - Starting epoch 13 of 20
+o.d.e.m.e.VariationalAutoEncoderExample - Starting epoch 14 of 20
+o.d.e.m.e.VariationalAutoEncoderExample - Starting epoch 15 of 20
+o.d.e.m.e.VariationalAutoEncoderExample - Starting epoch 16 of 20
+o.d.e.m.e.VariationalAutoEncoderExample - Starting epoch 17 of 20
+o.d.e.m.e.VariationalAutoEncoderExample - Starting epoch 18 of 20
+o.d.e.m.e.VariationalAutoEncoderExample - Starting epoch 19 of 20
+o.d.e.m.e.VariationalAutoEncoderExample - Starting epoch 20 of 20
+o.d.e.m.e.VariationalAutoEncoderExample - Evaluate model....
+o.d.e.m.e.VariationalAutoEncoderExample - 
+Examples labeled as 0 classified by model as 0: 971 times
+Examples labeled as 0 classified by model as 1: 1 times
+Examples labeled as 0 classified by model as 2: 1 times
+Examples labeled as 0 classified by model as 3: 2 times
+Examples labeled as 0 classified by model as 4: 1 times
+Examples labeled as 0 classified by model as 5: 2 times
+Examples labeled as 0 classified by model as 6: 1 times
+Examples labeled as 0 classified by model as 8: 1 times
+Examples labeled as 1 classified by model as 1: 1125 times
+Examples labeled as 1 classified by model as 2: 3 times
+Examples labeled as 1 classified by model as 6: 2 times
+Examples labeled as 1 classified by model as 7: 1 times
+Examples labeled as 1 classified by model as 8: 4 times
+Examples labeled as 2 classified by model as 0: 5 times
+Examples labeled as 2 classified by model as 1: 2 times
+Examples labeled as 2 classified by model as 2: 999 times
+Examples labeled as 2 classified by model as 3: 8 times
+Examples labeled as 2 classified by model as 4: 2 times
+Examples labeled as 2 classified by model as 6: 2 times
+Examples labeled as 2 classified by model as 7: 5 times
+Examples labeled as 2 classified by model as 8: 8 times
+Examples labeled as 2 classified by model as 9: 1 times
+Examples labeled as 3 classified by model as 0: 1 times
+Examples labeled as 3 classified by model as 3: 989 times
+Examples labeled as 3 classified by model as 4: 1 times
+Examples labeled as 3 classified by model as 5: 7 times
+Examples labeled as 3 classified by model as 7: 6 times
+Examples labeled as 3 classified by model as 8: 3 times
+Examples labeled as 3 classified by model as 9: 3 times
+Examples labeled as 4 classified by model as 0: 1 times
+Examples labeled as 4 classified by model as 2: 4 times
+Examples labeled as 4 classified by model as 4: 960 times
+Examples labeled as 4 classified by model as 6: 1 times
+Examples labeled as 4 classified by model as 7: 2 times
+Examples labeled as 4 classified by model as 8: 2 times
+Examples labeled as 4 classified by model as 9: 12 times
+Examples labeled as 5 classified by model as 0: 2 times
+Examples labeled as 5 classified by model as 3: 11 times
+Examples labeled as 5 classified by model as 4: 1 times
+Examples labeled as 5 classified by model as 5: 868 times
+Examples labeled as 5 classified by model as 6: 3 times
+Examples labeled as 5 classified by model as 7: 2 times
+Examples labeled as 5 classified by model as 8: 1 times
+Examples labeled as 5 classified by model as 9: 4 times
+Examples labeled as 6 classified by model as 0: 7 times
+Examples labeled as 6 classified by model as 1: 2 times
+Examples labeled as 6 classified by model as 2: 1 times
+Examples labeled as 6 classified by model as 3: 1 times
+Examples labeled as 6 classified by model as 4: 9 times
+Examples labeled as 6 classified by model as 5: 8 times
+Examples labeled as 6 classified by model as 6: 927 times
+Examples labeled as 6 classified by model as 8: 2 times
+Examples labeled as 6 classified by model as 9: 1 times
+Examples labeled as 7 classified by model as 0: 2 times
+Examples labeled as 7 classified by model as 1: 3 times
+Examples labeled as 7 classified by model as 2: 9 times
+Examples labeled as 7 classified by model as 3: 3 times
+Examples labeled as 7 classified by model as 4: 1 times
+Examples labeled as 7 classified by model as 5: 1 times
+Examples labeled as 7 classified by model as 7: 1000 times
+Examples labeled as 7 classified by model as 8: 2 times
+Examples labeled as 7 classified by model as 9: 7 times
+Examples labeled as 8 classified by model as 0: 5 times
+Examples labeled as 8 classified by model as 1: 1 times
+Examples labeled as 8 classified by model as 2: 2 times
+Examples labeled as 8 classified by model as 3: 10 times
+Examples labeled as 8 classified by model as 4: 5 times
+Examples labeled as 8 classified by model as 5: 6 times
+Examples labeled as 8 classified by model as 7: 6 times
+Examples labeled as 8 classified by model as 8: 935 times
+Examples labeled as 8 classified by model as 9: 4 times
+Examples labeled as 9 classified by model as 0: 6 times
+Examples labeled as 9 classified by model as 1: 5 times
+Examples labeled as 9 classified by model as 2: 1 times
+Examples labeled as 9 classified by model as 3: 6 times
+Examples labeled as 9 classified by model as 4: 8 times
+Examples labeled as 9 classified by model as 5: 7 times
+Examples labeled as 9 classified by model as 7: 4 times
+Examples labeled as 9 classified by model as 8: 3 times
+Examples labeled as 9 classified by model as 9: 969 times
+
+
+==========================Scores========================================
+ Accuracy:        0.9743
+ Precision:       0.9742
+ Recall:          0.9741
+ F1 Score:        0.9741
+========================================================================
+o.d.e.m.e.VariationalAutoEncoderExample - ****************Example finished********************
+
+
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+o.d.e.m.e.StackedAutoEncoderMnistExample - Load data....
+
+o.d.e.m.e.StackedAutoEncoderMnistExample - Build model....
+o.n.l.f.Nd4jBackend - Loaded [CpuBackend] backend
+o.n.n.NativeOpsHolder - Number of threads used for NativeOps: 4
+o.d.n.c.MultiLayerConfiguration - Warning: new network default sets backprop to true.
+o.d.u.p.PlayUIServer - UI Server started at http://localhost:9000
+o.d.u.p.PlayUIServer - StatsStorage instance attached to UI: InMemoryStatsStorage(uid=fe8eb09c)
+o.d.e.m.e.StackedAutoEncoderMnistExample - Train model....
+o.d.e.m.e.StackedAutoEncoderMnistExample - Starting epoch 1 of 1
+o.n.n.Nd4jBlas - Number of threads used for BLAS: 4
+o.d.e.m.e.StackedAutoEncoderMnistExample - Evaluate model....
+
+o.d.e.m.e.StackedAutoEncoderMnistExample - 
+Examples labeled as 0 classified by model as 6: 980 times
+Examples labeled as 1 classified by model as 6: 1135 times
+Examples labeled as 2 classified by model as 6: 1032 times
+Examples labeled as 3 classified by model as 6: 1010 times
+Examples labeled as 4 classified by model as 6: 982 times
+Examples labeled as 5 classified by model as 6: 892 times
+Examples labeled as 6 classified by model as 6: 958 times
+Examples labeled as 7 classified by model as 6: 1028 times
+Examples labeled as 8 classified by model as 6: 974 times
+Examples labeled as 9 classified by model as 6: 1009 times
+
+Warning: class 0 was never predicted by the model. This class was excluded from the average precision
+Warning: class 1 was never predicted by the model. This class was excluded from the average precision
+Warning: class 2 was never predicted by the model. This class was excluded from the average precision
+Warning: class 3 was never predicted by the model. This class was excluded from the average precision
+Warning: class 4 was never predicted by the model. This class was excluded from the average precision
+Warning: class 5 was never predicted by the model. This class was excluded from the average precision
+Warning: class 7 was never predicted by the model. This class was excluded from the average precision
+Warning: class 8 was never predicted by the model. This class was excluded from the average precision
+Warning: class 9 was never predicted by the model. This class was excluded from the average precision
+
+==========================Scores========================================
+ Accuracy:        0.0958
+ Precision:       0.0958
+ Recall:          0.1
+ F1 Score:        0.0979
+========================================================================
+
+
+o.d.e.m.e.MnistRBMExample - Build model....
+o.n.l.f.Nd4jBackend - Loaded [CpuBackend] backend
+o.n.n.NativeOpsHolder - Number of threads used for NativeOps: 4
+o.d.n.c.MultiLayerConfiguration - Warning: new network default sets backprop to true.
+o.d.u.p.PlayUIServer - UI Server started at http://localhost:9000
+o.d.u.p.PlayUIServer - StatsStorage instance attached to UI: InMemoryStatsStorage(uid=d80e2f53)
+
+o.n.n.Nd4jBlas - Number of threads used for BLAS: 4
+o.d.e.m.e.MnistRBMExample - Evaluate model....
+o.d.e.m.e.MnistRBMExample - 
+Examples labeled as 0 classified by model as 0: 928 times
+Examples labeled as 9 classified by model as 9: 672 times
+
+
+==========================Scores========================================
+ Accuracy:        0.7506
+ Precision:       0.7498
+ Recall:          0.7454
+ F1 Score:        0.7476
+========================================================================
+o.d.e.m.e.MnistRBMExample - ****************Example finished********************
+
+
+
+ConvNet LeNet 5 epochs
+
+Examples labeled as 9 classified by model as 7: 3 times
+Examples labeled as 9 classified by model as 9: 992 times
+
+
+==========================Scores========================================
+ Accuracy:        0.9877
+ Precision:       0.9878
+ Recall:          0.9875
+ F1 Score:        0.9876
+========================================================================
+o.d.e.m.e.LenetMnistExample - ****************Example finished********************
+
+
+Examples labeled as 9 classified by model as 4: 5 times
+Examples labeled as 9 classified by model as 5: 1 times
+Examples labeled as 9 classified by model as 7: 8 times
+Examples labeled as 9 classified by model as 8: 1 times
+Examples labeled as 9 classified by model as 9: 989 times
+
+10 epochs
+==========================Scores========================================
+ Accuracy:        0.9893
+ Precision:       0.9893
+ Recall:          0.9891
+ F1 Score:        0.9892
+========================================================================
+o.d.e.m.e.LenetMnistExample - ****************Example finished********************

@@ -1,0 +1,35 @@
+CMM took 111.0ms (Mean:129.00525466666667)
+EntropyCollection took 0.0ms (Mean:0.6562515999999999)
+F1 took 0.0ms (Mean:0.6376870666666666)
+General took 0.0ms (Mean:0.5864474888888889)
+OutlierPerformance took 0.0ms (Mean:0.0)
+RegressionAccuracy took 0.0ms (Mean:0.0)
+Separation took 0.0ms (Mean:0.10419502222222222)
+SilhouetteCoefficient took 0.0ms (Mean:1.1693663777777779)
+StatisticalCollection took 0.0ms (Mean:0.6242049555555556)
+
+CMM took 111.0ms (Mean:129.00525466666667)
+EntropyCollection took 0.0ms (Mean:0.6562515999999999)
+F1 took 0.0ms (Mean:0.6376870666666666)
+General took 0.0ms (Mean:0.5864474888888889)
+OutlierPerformance took 0.0ms (Mean:0.0)
+RegressionAccuracy took 0.0ms (Mean:0.0)
+Separation took 0.0ms (Mean:0.10419502222222222)
+SilhouetteCoefficient took 0.0ms (Mean:1.1693663777777779)
+StatisticalCollection took 0.0ms (Mean:0.6242049555555556)
+
+FileStream -f /home/kchoppella/book/Chapter05/expt/elecNormNew.arff -K
+clustream.WithKmeans -h 1001 -m 101 -t 3 -k 6 -M
+clustream.WithKmeans
+
+Help on clustream.WithKmeans
+-h horizon (default: 1000)
+Rang of the window.
+-m maxNumKernels (default: 100)
+Maximum number of micro kernels to use.
+-t kernelRadiFactor (default: 2)
+Multiplier for the kernel radius
+-k k (default: 5)
+k of macro k-means (number of clusters)
+-M evaluateMicroClustering
+Evaluate the underlying microclustering instead of the macro clustering

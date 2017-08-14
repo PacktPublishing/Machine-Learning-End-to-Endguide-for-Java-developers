@@ -1,0 +1,6 @@
+# Cluster: mrg_149986_157.19200560855592
+# Cluster name: mrg_149986_157.19200560855592
+# Cluster noise flag: false
+# Cluster size: 0
+# Parents: mrg_145087_394.26007406006016
+# Children: obj_144202 obj_144008
